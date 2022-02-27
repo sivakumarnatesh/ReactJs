@@ -1,0 +1,61 @@
+.logo{
+    display: flex;
+}
+.logo-img{
+    margin: 22px 2px;
+    margin-left: 25px;
+}
+.logo-img img{
+    width: 20px;
+}
+.logo-text{
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgba(0, 97, 253, 0.8),rgba(188, 214, 255, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     font-family: Mont;
+    
+    font-size: 20px;
+    margin: 20px 5px;
+}
+.sider{
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    background: #141414;
+    box-shadow: 1px 1px 1px rgb(106, 106, 106);
+}
+/* .menu-item2{
+   margin-bottom: -90px;
+} */
+.menu-items{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.ant-layout-sider-zero-width-trigger, .ant-menu.ant-menu-dark {
+    background-color: #141414;
+    /* padding-left:2px; */
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+background-color: #2F2F2F;
+border-radius: 10px;
+width: 180px;
+
+}
+.ant-divider,.ant-divider-vertical{
+margin: 0;
+}
+/* @media screen and (min-width:1300px) {
+    .menu-item2{
+        margin-top:105%;
+    }
+}
+@media screen and (min-width:1400px) {
+    .menu-item2{
+        margin-top:130%;
+    }
+} */

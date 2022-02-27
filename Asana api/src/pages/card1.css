@@ -1,0 +1,141 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: arial;
+  }
+  .content{
+    margin:8%;
+  }
+  .outof{
+    margin-left: 2px;
+    font-size: 10px;
+  }
+  .button2 {
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: #006C67;
+    text-align: center;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .read-more{
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+  }
+  .heading{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(24, 106, 177, 0.551);
+  }
+  .para{
+    font-size: 12px;
+    margin-bottom: 5%;
+  }
+  .btn1{
+    color:rgb(110, 110, 241);
+    background-color: rgb(233, 233, 233);
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    border-style: none;
+  }
+  .btn-container{
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  progress{
+    margin-left: 10px;
+  }
+  .progress-arrow{
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+.progress-bar{
+  cursor: pointer;
+  padding: 0;
+}
+.progress-area{
+  color: white;
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.right-container{ 
+  display: none;
+}
+.cont{
+  position: absolute;
+  top: 15.5%;
+  left: 36.5%;
+  font-weight: 500;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1%;
+  border-radius: 10px;
+  display: block;
+}
+.hover-card{
+  display: none;
+}
+.hovering-card{
+  display: block;
+  background-color: aqua;
+  position: absolute;
+  top: 44%;
+  left: 36.5%;
+  font-weight: 500;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1%;
+  border-radius: 10px;
+}
+.project-details{
+  padding: 10px;
+  display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: flex-start;
+}
+  @media screen and (min-width:768px) {
+    .card{
+      width: 40%;
+    }
+    .content{
+      margin: 50px;
+    }
+    .btn-container{
+      margin-bottom: 5px;
+    }
+    .para{
+      margin-bottom: 5px;
+      font-size: 10px;
+    }
+  }
+
+@media screen and (min-width: 1200px) {
+  .card{
+    width: 25%;
+  }
+  .content{
+    margin: 50px;
+  }
+  .btn-container{
+    margin-bottom: 5px;
+  }
+  .para{
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+}
+  

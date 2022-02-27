@@ -1,0 +1,25 @@
+.content{
+    margin-left:10%;
+    margin-top:35%;
+    width: 80%;
+    /* z-index: 0; */
+    /* position: fixed; */
+}
+@media screen and (min-width: 481px) and (max-width: 990px) {
+    .content{
+        margin-left:10%;
+        margin-top:10%;
+    }
+}
+@media screen and (min-width: 990px) and (max-width: 1400px) {
+    .content{
+        margin-left:23%;
+        margin-top:7%;
+    }
+}
+@media screen and (min-width:1400px) {
+    .content{
+        margin-left:20%;
+        margin-top:5%;
+    }
+}

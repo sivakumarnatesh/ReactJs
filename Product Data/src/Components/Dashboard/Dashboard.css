@@ -1,0 +1,32 @@
+.logo img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+}
+.site-layout-background {
+  background: #fff;
+  height: 85vh;
+}
+.site-layout-sub-header-background{
+  position: fixed;
+  width: 100vw;
+}
+.sider{
+    height: 100vh;
+    position: fixed;
+    margin-top: 3%;
+    z-index: 1;
+}
+.title1{
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.avatar{
+  display:flex;
+  justify-content:flex-end;
+  margin: 20px 10px;
+}

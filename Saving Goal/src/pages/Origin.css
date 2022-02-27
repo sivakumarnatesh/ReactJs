@@ -1,0 +1,218 @@
+.heading{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+.title{
+    background-color: #F4F8FA;
+    color:#0c27a0;
+    padding:5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.inside-title{
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.house{
+    padding: 10px 5%;
+    display: flex;
+}
+.house-img img{
+    width: 60px;
+}
+.house1{
+    margin: 0 3%;
+}
+.house-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+.goal-text{
+  color: gray;
+}
+.form1{
+    padding: 5%;
+}
+.left-icon{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.left-icon1{
+    color: gray;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.right-icon{
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.year{
+    color:gray;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amount{
+    width: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.amount1{
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    /* margin-top: 8px; */
+    width: 100%;
+}
+.total-amt-text{
+    margin-bottom: 8px;
+}
+
+input:focus {
+    outline:none;
+}
+.dollar{
+    color: lightgray;
+    margin-left: 10px;
+}
+.border{
+    border-style: none;
+}
+.amount,
+input::-webkit-input-placeholder {
+    font-size: 25px;
+    color: black;
+ 
+    font-weight: bold;
+}
+.amount1,
+input::-webkit-input-placeholder {
+    font-size: 25px;
+    color: gray;
+    padding: 6px;
+    font-weight: bold;
+}
+.goal-text1{
+    margin-top: 10px;
+    color: black;
+}
+.monthly-card{
+    border:1px solid lightgray;
+    margin: 5px 10%;
+  border-radius: 10px;
+}
+.para{
+    font-size: 10px;
+    background-color: #F4F8FA;
+    padding: 5%;
+}
+.monthly-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.monthly-text1{
+    color: black;
+    font-size: 15px;
+    padding: 5% 0;
+ 
+}
+.monthly-text2{
+    color: #0d7bf0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 5% 0;
+}
+.text-css{
+    color: black;
+    font-weight: bold;
+}
+.confirm-btn{
+    background-color:#1B31A8;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 50px;
+    margin: 30px 5%;
+    width: 90vw;
+    padding: 10px 0;
+}
+
+
+@media screen and (min-width:768px) {
+    .title{
+        padding: 1% 0;
+        font-size: 25px;
+        background-color: #F4F8FA;
+    }
+    .heading{
+        margin: 20px 5%;
+        font-size: 25px;
+    }
+    .house{
+        padding: 30px 5%;
+    }
+    .desktop-card{
+        border: 1px solid white;
+        margin: 10px 28%;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    .confirm-btn{
+        margin:30px 25%;
+        padding: 20px 0;
+        width: 20vw;
+    }
+    .total-color{
+        background-color: #F4F8FA;
+        padding: 2% 0;
+    }
+    .form1{
+        display: flex;
+        padding: 10px 5%;
+    }
+    .amount1{
+        width: 24vw;
+    }
+    .amount{
+        font-size: 20px;
+        width: 13vw;
+      
+    }
+    .goal-text1{
+        margin-top: 0;
+    }
+    .monthly-card{
+        margin: 20px 5%;
+    }
+    .monthly-text{
+        justify-content: space-between;
+        margin: 0 5%;
+    }
+    .monthly-text1{
+        font-size: 20px;
+    }
+    .monthly-text2{
+        font-size: 25px;
+    }
+    .para{
+        font-size: 15px;
+    }
+    .input2{
+        margin-left: 2%;
+    }
+}

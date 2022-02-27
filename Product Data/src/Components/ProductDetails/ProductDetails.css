@@ -1,0 +1,218 @@
+.details-arrow{
+    display: flex;
+    margin-left: 14%;
+    margin-top: 24%;
+   font-size: 15px;
+   color: black;
+   font-weight: bold;
+}
+.product-data{
+    background-color: rgb(134, 115, 245);
+    width: 100vw;
+    /* height: 100vh; */
+}
+.details-content{
+    margin-left: 20px;
+}
+.title{
+    color: rgb(19, 96, 150);
+    font-size: 19px;
+    font-weight: bold;
+}
+.description{
+    font-size: 12px;
+    color: black;
+    margin-top: 10px;
+    text-align: justify;
+}
+.static-card{
+    padding: 20px;
+}
+.details-image{
+    margin: 10px;
+}
+.details-image img{
+    width: 80%;
+    height: 80%;
+}
+.price-tag{
+    font-size: 25px;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.feedback{
+    display: flex;
+    font-size: 12px;
+}
+.rating{
+    
+    float: left;
+    font-weight: 700;
+}
+
+.reviews{
+  margin-left: 12px;
+   margin-top: 10px;
+   font-weight: 700;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .product-data{
+        height: 100vh;
+    }
+    .details-arrow{
+        margin-left: 10%;
+        margin-top: 15%;
+       font-size: 20px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .description{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .details-image img{
+        width: 50%;
+        height: 50%;
+    }
+    .feedback{
+        font-size: 17px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .product-data{
+        height: 100vh;
+    }
+    .details-arrow{
+        margin-left: 10%;
+        margin-top: 10%;
+       font-size: 20px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .description{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .details-image img{
+        width: 80%;
+        height: 80%;
+        margin-left: 15%;
+    }
+    .feedback{
+        font-size: 17px;
+    }
+    .large-view{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        text-align: justify;
+        /* margin-top: 1%; */
+    }
+    .feedback{
+        margin-left: 10%;
+    }
+    .price-tag{
+        margin-left: 10%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1400px) {
+    .product-data{
+        height: 100vh;
+    }
+    .details-image img{
+        width: 70%;
+        height: 70%;
+        margin-left: 15%;
+    }
+    .large-view{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 24%;
+        text-align: justify;
+        /* margin-top: 1%; */
+    }
+    .details-arrow{
+        margin-left: 23%;
+        margin-top: 10%;
+    }
+    /* .title{
+        margin-left: 35%;
+    } */
+    .description{
+        /* margin-left: 35%; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .feedback{
+        margin-left: 24%;
+        /* margin-top: -5%; */
+    }
+    .price-tag{
+        margin-left: 24%;
+    }
+}
+ @media screen and (min-width:1400px) {
+    .product-data{
+        height: 100vh;
+    }
+    .details-arrow{
+        margin-left: 15%;
+        margin-top: 6%;
+       font-size: 18px;
+    }
+    .title{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 2.5%;
+        text-align: justify;
+    }
+    .description{
+        line-height: 30px;
+        text-align: justify;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 18px;
+       
+    }
+    .large-view{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15%;
+    }
+    .details-image img{
+        width: 20vw;
+        height: 30vh;
+    }
+    .feedback{
+        flex-direction: column;
+        font-size: 17px;
+        margin-left: 15%;
+    }
+    .rating{
+        text-align: left;
+        font-weight: 700;
+        margin-left: 17px;
+    }
+    
+    .reviews{
+        text-align: left;
+      margin-left: 17px;
+       margin-top: 10px;
+       font-weight: 700;
+    }
+    .price-tag{
+     text-align: left;
+     margin-left: 16%;
+    }
+    .details-image{
+        margin: 0;
+    }
+    .container1{
+        width: 50%;
+    }
+} 

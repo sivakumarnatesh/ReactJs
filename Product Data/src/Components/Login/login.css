@@ -1,0 +1,59 @@
+.login-form{
+  width: 100%;
+  padding: 35% 8%;
+  /* margin-top: 20px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+   background-color: #FFC371; */
+}
+.user-logo{
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.login-form-button{
+  width: 100%;
+  border-radius: 20px;
+  background: -webkit-linear-gradient(to right, #FF5F6D, #FFC371);
+  background: linear-gradient(to right, #FF5F6D, #FFC371);
+  border: none;
+  color: black;
+}
+.login-form-button:hover{
+  background-color: #FF5F6D;
+}
+.register-form-button{
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 20px;
+  background: -webkit-linear-gradient(to right, #FF5F6D, #FFC371);
+  background: linear-gradient(to right, #FF5F6D, #FFC371);
+  border: none;
+  color: black;
+}
+.register-form-button:hover{
+  background-color: #FF5F6D;
+}
+.login-background{
+  height: 100vh;
+  background: #FF5F6D;
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
+background: linear-gradient(to right, #FFC371, #FF5F6D);
+
+}
+.login-form-forgot{
+  color:black;
+}
+.login-form-forgot:hover{
+  color:black;
+}
+@media screen and (min-width:481px) and (max-width: 1024px) {
+  .login-form{
+    padding: 8% 8%;
+  }
+}
+@media screen and (min-width:1024px) {
+  .login-form{
+    width: 30%;
+    margin-left: 33%;
+    padding: 8% 8%;
+  }
+}
